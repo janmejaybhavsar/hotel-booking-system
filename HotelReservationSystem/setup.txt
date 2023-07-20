@@ -1,0 +1,12 @@
+Signup: localhost:8080/signup
+
+{
+    "email" : "jon@gmail.com",
+    "password" : "abc123",
+    "confirmPassword" : "abc123"
+}
+
+Verify User: localhost:8080/confirmSignup/jon@gmail.com/abc123
+
+true
+
